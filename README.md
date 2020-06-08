@@ -2,6 +2,8 @@
 
 Projeto de uma cesta de compras construido com Vue e Vuex.
 
+[Veja a demo aqui](https://vue-store-test.herokuapp.com/)
+
 ### Como os itens funcionam
 
 - Os produtos podem ser adicionados a cesta de compras, se houverem produtos em estoque
