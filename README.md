@@ -2,9 +2,7 @@
 
 Projeto de uma cesta de compras construido com Vue e Vuex.
 
-
-### How cart works
-
+### Como os itens funcionam
 
 - Os produtos podem ser adicionados a cesta de compras, se houverem produtos em estoque
 - Produtos da cesta podem ser removidos.
