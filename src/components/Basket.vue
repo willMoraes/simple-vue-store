@@ -4,7 +4,7 @@
             <li v-for="product in products" :key="product.id" class="list-group-item">
                 <span class="basket-li-title">{{product.title}}</span>
                 <span class="basket-li-qt">Quantidade: {{product.quantity}}</span>
-                <span class="basket-li-price">{{product.price | formatMoney}}</span>
+                <span class="basket-li-price">{{product.price * product.quantity | formatMoney}}</span>
                 <a href="#" @click="removeFromCart(product)" class="basket-li-delete text-danger" >
                     <svg class="bi bi-x" width="100%" height="100%" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708-.708l7-7a.5.5 0 0 1 .708 0z"/>
